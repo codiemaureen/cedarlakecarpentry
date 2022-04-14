@@ -167,6 +167,8 @@ p {
   @media all and (max-width: 550px) {
     .image {
       width: 100%; } }
+  .image :hover {
+    color: whitesmoke; }
 
 .image__header {
   display: flex;
