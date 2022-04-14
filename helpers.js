@@ -14,5 +14,5 @@ exports.icon = (name) => fs.readFileSync(`./public/images/icons/${name}.svg`);
 exports.siteName = `Cedar Lake Carpentry`;
 
 exports.menu = [
-  { slug: '/projects', title: 'Projects', icon: 'folder', },
+  { slug: '/projects', title: 'Projects', icon: 'hammer', },
 ];

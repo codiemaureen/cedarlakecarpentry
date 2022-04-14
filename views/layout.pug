@@ -3,7 +3,7 @@ html(lang="en")
     head
         title= `${h.siteName} || ${title}`
         link(rel="stylesheet", href="/dist/style.css")
-        link(rel="shortcut icon" type="image/png" href="/images/icons/plant.svg")
+        link(rel="shortcut icon" type="image/png" href="/images/icons/hammer.svg")
         link(rel="preconnect" href="https://fonts.googleapis.com")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet")
@@ -13,22 +13,21 @@ html(lang="en")
             h2.wraptitle CEDAR LAKE CARPENTRY
         .nav_bar 
             li.nav_item.logo: a.nav__link(href="/")
+                != h.icon('hammer')
                 span.contact Cedarlakecarpentery@gmail.com
                 br
                 span.contact 586-322-5234   
             li.nav_item: a.nav__link(href="/")
-                != h.icon('hammer')
                 span Home
             li.nav_item: a.nav__link(href="/about")
-                != h.icon('hammer')
                 span About Us
-            li.nav_item: a.nav__link(href="/")
-                != h.icon('hammer')
+            li.nav_item: a.nav__link(href="/gallery")
+
                 span Gallery
             li.nav_item: a.nav__link(href="/")
                 != h.icon('hammer')
                 span Services
-            li.nav_item: a.nav__link(href="/")
+            li.nav_item: a.nav__link(href="/contact")
                 != h.icon('hammer')
                 span Contact Us
                 
