@@ -1,16 +1,38 @@
-html {
-  font-size: 10px;
+body {
+  margin: 0;
+  background: blue;
+  display: block;
+  background-size: cover;
+  font-size: 36px;
 }
 
-body {
-  background: #efefef;
-  &:before {
-    content: "";
-    display: block;
-    background: #2a4747;
-    height: 10px;
-    width: 100%;
-  }
+.div {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: $shadow;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: $shadow;
+}
+
+p {
+  display: flex;
+  text-shadow: $lightshadow;
+  justify-content: center;
+  justify-self: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .inner {

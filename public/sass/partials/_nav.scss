@@ -1,0 +1,135 @@
+.wrapper {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  height: 25vh;
+  background: url("../../images/Cedar.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraptitle {
+  letter-spacing: 5px;
+  text-shadow: $shadow;
+}
+.nav_bar {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  background-color: #241e19;
+  box-shadow: $lightshadow;
+}
+
+.nav_item {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 25px;
+  border: 1px solid #181410;
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  justify-content: flex-start;
+  flex: auto 4;
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  justify-content: center;
+  justify-items: center;
+  transition: all 0.2s;
+}
+svg:hover {
+  color: white;
+  transform: scale(1.2);
+}
+svg:not(:root) {
+  overflow: hidden;
+  fill: white;
+  padding: 1.5px;
+  background: hsla(27, 18%, 12%, 0.24);
+}
+
+@media all and (max-width: 1200px) {
+  .nav_bar {
+    .nav_item {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      svg {
+        width: 30px;
+      }
+      &.nav_item.logo {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        svg {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .nav_bar {
+    flex-wrap: wrap;
+    &.nav_item.logo {
+      order: 1;
+      &svg {
+        order: 2;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 650px) {
+  .nav_bar {
+    &.nav_item {
+      width: 100%;
+      svg {
+        display: none;
+      }
+    }
+  }
+  &.nav_item {
+    width: 33.333333%;
+  }
+  svg {
+    max-width: 100%;
+  }
+  &.nav_item.logo {
+    width: 100%;
+
+    justify-content: center;
+    svg {
+      width: 100%;
+    }
+  }
+} ;
