@@ -7,6 +7,7 @@ router.get('/', exController.homePage);
 router.get('/about', exController.about);
 router.get('/gallery', exController.gallery);
 router.get('/contact', exController.contact);
+router.get('/services', exController.services);
 
 
 module.exports = router;

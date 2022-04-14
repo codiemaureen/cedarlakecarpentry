@@ -7,6 +7,9 @@ exports.about = (req, res) => {
 exports.gallery = (req, res) => {
     res.render('gallery', {title: 'Gallery'});
 };
+exports.services = (req, res) => {
+    res.render('services', {title: 'Services'});
+};
 exports.contact = (req, res) => {
     res.render('contact', {title: 'Contact Us'});
 };
