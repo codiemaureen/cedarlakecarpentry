@@ -1,0 +1,24 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./public/sass/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+html {
+  font-size: 10px; }
+
+body {
+  background: #efefef; }
+  body:before {
+    content: "";
+    display: block;
+    background: #2a4747;
+    height: 10px;
+    width: 100%; }
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto; }
+  @media all and (max-width: 900px) {
+    .inner {
+      padding: 2rem; } }
+
+
+/*# sourceMappingURL=style.css.map*/

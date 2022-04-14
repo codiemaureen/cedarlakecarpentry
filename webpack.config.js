@@ -70,7 +70,7 @@ const config = {
   devtool: "source-map",
   entry: {
     // we only have 1 entry, but I've set it up for multiple in the future
-    App: "./public/javascripts/wedding.js",
+    App: "./public/javascripts/cedarlake.js",
   },
   // Once things are done, we kick it out to a file.
   output: {
