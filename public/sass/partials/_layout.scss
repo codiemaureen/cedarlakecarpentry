@@ -44,12 +44,18 @@ p {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background: #241e19;
   margin-bottom: 0;
+  height: 25vh;
 }
 
 .information {
+  display: flex;
   color: white;
   font-size: 25px;
   letter-spacing: 2px;
+  justify-content: center;
+  justify-self: center;
 }
